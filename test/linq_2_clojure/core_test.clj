@@ -1,7 +1,7 @@
 (ns linq-2-clojure.core-test
   (:require [clojure.test :refer :all]
-            [linq-2-clojure.core :refer :all]))
+            [linq-2-clojure.linq40 :refer :all]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+  (testing "linq40"
+    (is (= (with-out-str (linq40) "foo")))))
