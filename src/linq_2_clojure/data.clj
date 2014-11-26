@@ -1,4 +1,4 @@
-(ns linq_2_clojure
+(ns linq-2-clojure.data
   (:require [clojure.data.json :as json]
             [clj-time.local :as ltime]))
 
